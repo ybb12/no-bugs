@@ -145,7 +145,7 @@ async fn main() {
     let mut number0 = 0.;
     let mut number1 = 0.;
 
-    let texture: Texture2D = load_texture("src/ferris.png").await.unwrap();
+    let texture: Texture2D = load_texture("ferris.png").await.unwrap();
 
     loop {
         clear_background(WHITE);
